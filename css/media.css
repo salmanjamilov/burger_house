@@ -224,7 +224,7 @@
   }
 }
 
-@media (max-width: 0px) {
+@media (max-width: 256px) {
   .banner-img img {
     transform: scale(1);
   }
