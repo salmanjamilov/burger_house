@@ -223,3 +223,62 @@
     text-align: center;
   }
 }
+
+@media (max-width: 0px) {
+  .banner-img img {
+    transform: scale(1);
+  }
+  .offer {
+    bottom: 20%;
+    left: 20%;
+    height: 90px;
+    width: 90px;
+  }
+  .offer h3 {
+    font-size: 20px;
+  }
+  .offer h3 strong {
+    font-size: 30px;
+  }
+  .offer h3 span {
+    font-size: 20px;
+  }
+
+  .banner-content {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .banner-content h5 {
+    font-size: 20px;
+  }
+  .banner-content h1 {
+    font-size: 70px;
+  }
+
+  .banner-content h2 {
+    font-size: 50px;
+  }
+
+  .heading h2 {
+    font-size: 40px;
+  }
+  .menu .menutitle {
+    top: 50px;
+    left: 50px;
+  }
+
+  .menu img {
+    padding: 20px;
+  }
+  .navbar-nav li {
+    text-align: center;
+    display: inline;
+  }
+  .navbar-nav.nav-link {
+    text-align: center;
+  }
+  .navbar-nav.nav-link:hover {
+    text-align: center;
+  }
+}
